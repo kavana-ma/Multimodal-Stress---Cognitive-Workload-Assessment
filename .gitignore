@@ -1,0 +1,26 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Data and results (do not commit biomedical data or outputs)
+data/raw/*
+data/processed/*
+results/
+*.npy
+*.npz
+*.mat
+*.edf
+*.fif
+*.vhdr
+*.vmrk
+*.eeg
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter and env
+.ipynb_checkpoints/
