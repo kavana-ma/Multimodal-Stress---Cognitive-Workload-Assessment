@@ -5,6 +5,7 @@ from typing import Dict, Any
 
 import numpy as np
 import pandas as pd
+from .loader import load_eeg_dataset
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +24,15 @@ def validate_eeg_dataset(data_dir: str) -> Dict[str, Any]:
     data_dir = os.path.abspath(data_dir)
     logger.info("Validating EEG dataset at %s", data_dir)
 
+    if os.path.exists(os.path.join(data_dir, "X.mat")):
+        data = load_eeg_dataset(data_dir)
+        X, y, subjects, trials = data["X"], data["y"], data["subject_id"], data["trial_id"]
+        return {"n_epochs": int(X.shape[0]), "n_channels": int(X.shape[1]), "n_samples": int(X.shape[2]),
+                "n_subjects": int(np.unique(subjects).size), "n_trials": int(np.unique(trials).size),
+                "n_classes": int(np.unique(y).size), "class_distribution": {str(k): int((y == k).sum()) for k in np.unique(y)},
+                "nan_count": int(np.isnan(X).sum()), "inf_count": int(np.isinf(X).sum()),
+                "channel_names": data["channel_names"], "label_map": data["label_map"],
+                "raw_X_shape": data["raw_X_shape"], "mat_variables": data["mat_variables"]}
     required = ["X.npy", "y.npy", "subject_id.npy", "trial_id.npy", "metadata.csv", "channel_names.json", "label_map.json"]
     for name in required:
         _require_file(os.path.join(data_dir, name))

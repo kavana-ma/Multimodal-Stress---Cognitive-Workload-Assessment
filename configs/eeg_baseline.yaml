@@ -1,27 +1,33 @@
 dataset:
   name: TU_Berlin
   modality: EEG
-  path: data/processed/eeg
+  path: data/preprocessed/eeg
 
 evaluation:
-  strategy: subject_independent
+  strategy: leave_one_subject_out
   random_state: 42
-  n_splits: 5
+  inner_splits: 2
+  max_training_epochs_per_subject: 30
 
-preprocessing:
-  normalization: zscore_channel
+features:
+  sampling_frequency_hz: 200
+  bands:
+    theta: [4, 8]
+    alpha: [8, 13]
+    beta: [13, 30]
+  welch_nperseg: 256
 
-model:
-  name: eeg_cnn
-  embedding_dim: 128
-  num_classes: null
-
-training:
-  batch_size: 32
-  learning_rate: 0.001
-  epochs: 5
-  weight_decay: 0.0
+models:
+  svm:
+    class_weight: balanced
+    grid:
+      C: [10.0]
+      gamma: [scale]
+  random_forest:
+    n_estimators: 200
+    max_depth: [null, 20]
+    class_weight: balanced
 
 runtime:
   seed: 42
-  device: auto
+  results_dir: results/eeg_baseline

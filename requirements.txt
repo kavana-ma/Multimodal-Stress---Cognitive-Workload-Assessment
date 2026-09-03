@@ -2,11 +2,8 @@ numpy
 pandas
 scipy
 scikit-learn
-mne
 matplotlib
 seaborn
-pyyaml
-torch
-tqdm
-jupyter
+PyYAML
+h5py
 pytest
