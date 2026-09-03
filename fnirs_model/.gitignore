@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Data
+*.mat
+*.npz
+
+# Model weights
+*.pt
+*.pth
+
+# Generated folders
+models/*.pt
+models/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
