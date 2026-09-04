@@ -1,0 +1,11 @@
+LOSO RESULTS VALIDATION REPORT
+======================================================================
+Prediction files found: 7 / 24
+Validation errors: 0
+
+VERDICT: PASS
+
+Completed subjects:
+VP001, VP002, VP003, VP004, VP005, VP006, VP007
+
+These are preliminary LOSO results until all 24 subjects are completed.
