@@ -12,23 +12,39 @@ class FNIRSCNNLSTM(nn.Module):
         super().__init__()
 
         # CNN
+        # Improved 3-layer CNN
         self.cnn = nn.Sequential(
-            nn.Conv1d(72, 32, kernel_size=3, padding=1),
-            nn.BatchNorm1d(32),
-            nn.ReLU(),
-            nn.MaxPool1d(2)
+        nn.Conv1d(72, 32, kernel_size=3, padding=1),
+        nn.BatchNorm1d(32),
+        nn.ELU(),
+        nn.MaxPool1d(2),
+
+        nn.Conv1d(32, 64, kernel_size=3, padding=1),
+        nn.BatchNorm1d(64),
+        nn.ELU(),
+        nn.MaxPool1d(2),
+
+        nn.Conv1d(64, 128, kernel_size=3, padding=1),
+        nn.BatchNorm1d(128),
+        nn.ELU()
         )
 
         # LSTM
         self.lstm = nn.LSTM(
-            input_size=32,
-            hidden_size=32,
-            num_layers=1,
-            batch_first=True
+        input_size=128,
+        hidden_size=64,
+        num_layers=2,
+        dropout=0.3,
+        batch_first=True
         )
+        self.dropout = nn.Dropout(0.4)
 
-        self.dropout = nn.Dropout(0.5)
-        self.fc = nn.Linear(32, 3)
+        self.fc = nn.Sequential(
+        nn.Linear(64, 32),
+        nn.ELU(),
+        nn.Dropout(0.3),
+        nn.Linear(32, 3)
+        )
 
         # NEW: Initialize weights
         self._init_weights()
@@ -52,7 +68,7 @@ class FNIRSCNNLSTM(nn.Module):
 
         x = self.cnn(x)
 
-        # (B,32,150)
+        # (B,128,75)
         x = x.permute(0, 2, 1)
 
         _, (hidden, _) = self.lstm(x)
