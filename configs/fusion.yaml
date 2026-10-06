@@ -1,0 +1,43 @@
+random_state: 42
+inner_group_folds: 3
+data:
+  eeg_dir: data/processed/eeg
+  fnirs_dir: data/processed/fnirs
+fnirs_config_path: configs/fnirs_baseline.yaml
+labels:
+  source_label_names:
+    0: 0-back
+    1: 2-back
+    2: 3-back
+  source_to_binary:
+    0: 0
+    1: 1
+    2: 1
+eeg:
+  sampling_rate_hz: 200
+  frequency_bands_hz:
+    delta: [1, 4]
+    theta: [4, 8]
+    alpha: [8, 13]
+    beta: [13, 30]
+fnirs:
+  feature_representation: channelwise_hbo_hbr_summary
+outputs:
+  eeg: results/eeg
+  fnirs: results/fnirs
+  fusion: results/fusion
+  comparison: results/comparison
+models:
+  linear_svm:
+    param_grid:
+      C: [0.1, 1.0, 10.0]
+  rbf_svm:
+    param_grid:
+      C: [0.1, 1.0, 10.0]
+      gamma: [scale, 0.01]
+  random_forest:
+    parameters:
+      n_estimators: 200
+      max_depth: 10
+      min_samples_leaf: 2
+      max_features: sqrt

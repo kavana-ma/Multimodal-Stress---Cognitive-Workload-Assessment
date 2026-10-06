@@ -1,0 +1,18 @@
+modality: fnirs
+data_dir: data/processed/fnirs
+expected_representation: preprocessed_hbo_hbr_epochs
+preprocessing_config_path: data/processed/fnirs/preprocessing_config.json
+expected_axes:
+  epochs: 0
+  channels: 1
+  time: 2
+features:
+  - mean
+  - standard_deviation
+  - temporal_slope
+  - absolute_peak
+  - area_under_curve
+preprocessing_note: >-
+  This experiment consumes already-preprocessed HbO/HbR epochs. Raw intensity or
+  optical-density data must be processed using verified acquisition-specific
+  parameters before they can satisfy this contract.
