@@ -1,0 +1,28 @@
+2026-10-13T14:58:39.566676+00:00 Input audit passed: 24 subjects, CPU device=cpu; beginning fold-1 pilot
+2026-10-13T14:58:57.815866+00:00 Pilot complete: 5.86s/epoch, val Macro-F1=0.4863, parameters=63254
+2026-10-13T14:59:32.094626+00:00 Fold 01/24 test=VP001 best_epoch=5 Macro-F1=0.5714
+2026-10-13T15:00:02.333802+00:00 Fold 02/24 test=VP002 best_epoch=5 Macro-F1=0.5926
+2026-10-13T15:00:24.545626+00:00 Fold 03/24 test=VP003 best_epoch=1 Macro-F1=0.4000
+2026-10-13T15:00:55.009692+00:00 Fold 04/24 test=VP004 best_epoch=5 Macro-F1=0.5835
+2026-10-13T15:01:26.349156+00:00 Fold 05/24 test=VP005 best_epoch=5 Macro-F1=0.6592
+2026-10-13T15:01:57.743709+00:00 Fold 06/24 test=VP006 best_epoch=3 Macro-F1=0.5903
+2026-10-13T15:02:30.437532+00:00 Fold 07/24 test=VP007 best_epoch=3 Macro-F1=0.3864
+2026-10-13T15:02:57.832576+00:00 Fold 08/24 test=VP008 best_epoch=2 Macro-F1=0.4000
+2026-10-13T15:03:30.671578+00:00 Fold 09/24 test=VP009 best_epoch=4 Macro-F1=0.6004
+2026-10-13T15:04:01.302821+00:00 Fold 10/24 test=VP010 best_epoch=5 Macro-F1=0.8782
+2026-10-13T15:04:23.519915+00:00 Fold 11/24 test=VP011 best_epoch=1 Macro-F1=0.2500
+2026-10-13T15:04:52.517578+00:00 Fold 12/24 test=VP014 best_epoch=2 Macro-F1=0.5398
+2026-10-13T15:05:15.372433+00:00 Fold 13/24 test=VP015 best_epoch=1 Macro-F1=0.5398
+2026-10-13T15:05:46.091880+00:00 Fold 14/24 test=VP016 best_epoch=5 Macro-F1=0.7107
+2026-10-13T15:06:18.763123+00:00 Fold 15/24 test=VP017 best_epoch=4 Macro-F1=0.6648
+2026-10-13T15:06:49.686280+00:00 Fold 16/24 test=VP018 best_epoch=4 Macro-F1=0.5179
+2026-10-13T15:07:19.321855+00:00 Fold 17/24 test=VP019 best_epoch=2 Macro-F1=0.8615
+2026-10-13T15:07:54.663961+00:00 Fold 18/24 test=VP020 best_epoch=5 Macro-F1=0.8071
+2026-10-13T15:08:29.854196+00:00 Fold 19/24 test=VP021 best_epoch=4 Macro-F1=0.7273
+2026-10-13T15:09:04.510033+00:00 Fold 20/24 test=VP022 best_epoch=4 Macro-F1=0.7699
+2026-10-13T15:09:41.863630+00:00 Fold 21/24 test=VP023 best_epoch=3 Macro-F1=0.7750
+2026-10-13T15:10:17.802438+00:00 Fold 22/24 test=VP024 best_epoch=5 Macro-F1=0.7854
+2026-10-13T15:10:46.695082+00:00 Fold 23/24 test=VP025 best_epoch=2 Macro-F1=0.6004
+2026-10-13T15:11:14.770386+00:00 Fold 24/24 test=VP026 best_epoch=2 Macro-F1=0.4722
+2026-10-13T15:16:02.780734+00:00 Report failure recovered: missing optional tabulate; generated report and verified artifacts without retraining.
+2026-10-13T15:17:29.369235+00:00 Report failure recovered: missing optional tabulate; generated report and verified artifacts without retraining.

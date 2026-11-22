@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "candidate_prediction_rows": 648,
+  "subjects_verified": 24,
+  "baseline_subject_modality_checks": 72,
+  "candidate_checkpoints_reloaded": 24,
+  "candidate_metrics_recomputed": 24,
+  "candidate_summary_metrics_recomputed": [
+    {
+      "metric": "accuracy",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "macro_f1",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "balanced_accuracy",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "low_recall",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "high_recall",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "roc_auc",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "pr_auc",
+      "mean_std_recomputed": true
+    },
+    {
+      "metric": "mcc",
+      "mean_std_recomputed": true
+    }
+  ],
+  "all_trial_and_label_alignment_checks": true,
+  "all_probabilities_valid_and_normalized": true,
+  "baseline_summary_matches_saved_reference": true,
+  "source_hashes_verified": "input hashes recorded before training; runner source hash is refreshed below"
+}

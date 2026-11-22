@@ -1,0 +1,6 @@
+issue,evidence,severity,status,fix,verification,measured_effect
+CUDA acceleration unavailable,"PyTorch 2.6 reports CUDA false; host adapter is Intel Iris Xe, not CUDA-compatible.",High,Confirmed,Used CPU only; no GPU performance claim.,environment.json,Full 24-fold run completed in recorded CPU runtime.
+Class imbalance,9 LOW and 18 HIGH examples per participant.,High,Confirmed,Training-fold class-weighted loss and class-specific reporting.,input_audit.json and candidate_fold_metrics.csv,No Macro-F1 improvement over baseline.
+Cross-subject variability,Candidate per-fold Macro-F1 varies substantially across held-out participants.,High,Measured,No target-subject adaptation; preserved LOSO integrity.,per_subject_metrics.csv,Paired 24-fold evaluation; external validation remains needed.
+Pilot runtime estimate omitted fold overhead,One-epoch pilot extrapolation was lower than full pipeline wall time.,Moderate,Confirmed,Recorded observed full LOSO and fold timing in runtime_benchmark.json.,run_manifest.json and per-fold fold_seconds,Full run completed; estimate error recorded.
+Final report dependency,Pandas to_markdown raised ImportError because optional tabulate was absent.,Low,Recovered,Built-in Markdown formatter; no additional package installed.,final_report.md generated and artifacts recomputed,No training artifacts changed.

@@ -1,0 +1,70 @@
+{
+  "git_commit": null,
+  "git_status": "not available: project root is not a Git repository",
+  "files": [
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\config.py",
+      "exists": true,
+      "sha256": "8479f9f7467c89c2bab7cdc8577b574932a27f42c4354f722c7c2eeaa17a44d5",
+      "sha256_after_run": "8479f9f7467c89c2bab7cdc8577b574932a27f42c4354f722c7c2eeaa17a44d5"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\dataset.py",
+      "exists": true,
+      "sha256": "ae911bb64bad6324c213637995d14757cced1da781d60f0dd10d19246ce3d8e0",
+      "sha256_after_run": "ae911bb64bad6324c213637995d14757cced1da781d60f0dd10d19246ce3d8e0"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\utils.py",
+      "exists": true,
+      "sha256": "e4d42748812ef04822319a42908d3cf126d5640596c97d56691df563830023bf",
+      "sha256_after_run": "e4d42748812ef04822319a42908d3cf126d5640596c97d56691df563830023bf"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\eeg_cnn_bilstm.py",
+      "exists": true,
+      "sha256": "e32be34f14f214fc4e69197554a7d5725ea922bd0807c6a8dcbf4188285a6f75",
+      "sha256_after_run": "e32be34f14f214fc4e69197554a7d5725ea922bd0807c6a8dcbf4188285a6f75"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\fnirs_cnn.py",
+      "exists": true,
+      "sha256": "bbd0141686192554e4e35e001b7bffdef0e52563e19a78f7f15204130b279d30",
+      "sha256_after_run": "bbd0141686192554e4e35e001b7bffdef0e52563e19a78f7f15204130b279d30"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\decision_fusion.py",
+      "exists": true,
+      "sha256": "7ab270f9d35713935e5e4e70d58eb70c0bab3781ccba921c49006e1b4520fa86",
+      "sha256_after_run": "7ab270f9d35713935e5e4e70d58eb70c0bab3781ccba921c49006e1b4520fa86"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\18_train_late_fusion.py",
+      "exists": true,
+      "sha256": "716646e272cb9b77f76d86cb539b063329f1105a2d1028881098afd58c9c2ae6",
+      "sha256_after_run": "716646e272cb9b77f76d86cb539b063329f1105a2d1028881098afd58c9c2ae6"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\19_evaluate_late_fusion.py",
+      "exists": true,
+      "sha256": "385f0601742d28293f835dd2f876f1254a2b35f8d72867289411ed0911c1ab2c",
+      "sha256_after_run": "385f0601742d28293f835dd2f876f1254a2b35f8d72867289411ed0911c1ab2c"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\result_new_approach\\models\\compact_multimodal_cnn.py",
+      "exists": true,
+      "sha256": "2a94a8b459bd743ab25d34bf4471c8a6038a050be4ad644d9b1a94c9a71c3f04",
+      "sha256_after_run": "2a94a8b459bd743ab25d34bf4471c8a6038a050be4ad644d9b1a94c9a71c3f04"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\result_new_approach\\src\\run_experiment.py",
+      "exists": true,
+      "sha256": "b111b234bc9f3bfd40231ee611cdc49adf751ce0c0bad1ee043a1f5bc8d5caea",
+      "sha256_after_run": "79f9b23f6841abbb451bec501e9a3bd03bf331b59d584aa410983a5f4518ed89"
+    }
+  ],
+  "finalizer": {
+    "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\result_new_approach\\src\\finalize_saved_run.py",
+    "sha256": "6f3a9d2fc4419a1a3213c2789ef59884c310787626ba23b0157a36bbdde28a8e"
+  }
+}

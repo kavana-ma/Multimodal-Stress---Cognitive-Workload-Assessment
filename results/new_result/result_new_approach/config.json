@@ -1,0 +1,31 @@
+{
+  "experiment_id": "result_new_approach",
+  "seed": 42,
+  "approach": "joint end-to-end dual temporal CNN encoders plus learned concatenation/MLP fusion",
+  "primary_protocol": "24-fold LOSO, existing 22 train / 1 validation / 1 test subject splits",
+  "epochs": 5,
+  "pilot_epochs": 1,
+  "batch_size": 64,
+  "patience": 2,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0003,
+  "input_shapes": {
+    "eeg": [
+      28,
+      8400
+    ],
+    "fnirs": [
+      36,
+      420,
+      2
+    ]
+  },
+  "labels": {
+    "0-back": 0,
+    "2-back": 1,
+    "3-back": 1
+  },
+  "training_normalization": "calculate_channel_statistics on train-subject epochs only, reused unchanged for validation/test",
+  "threshold": 0.5,
+  "output_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\result_new_approach"
+}
