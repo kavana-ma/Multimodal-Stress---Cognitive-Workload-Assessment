@@ -1,0 +1,18 @@
+{
+  "experiment_id": "decision_fusion_enhanced_20261013_134000",
+  "status": "COMPLETE",
+  "started_at_utc": "2026-10-13T08:24:24.446638+00:00",
+  "finished_at_utc": "2026-10-13T08:25:39.077132+00:00",
+  "runtime_seconds": 74.625,
+  "workflow_started_at": "2026-10-13T13:38:59.071788+05:30",
+  "workflow_deadline": "2026-10-13T13:58:59.071788+05:30",
+  "total_workflow_elapsed_seconds": 1000.005344,
+  "validation_data_and_inference_seconds": 27.622999999672174,
+  "wall_clock_limit_seconds": 1200,
+  "completed_folds": 24,
+  "evaluation_samples": 648,
+  "device": "cpu",
+  "failure_or_stop_reason": null,
+  "optional_meta_fusion": "SKIPPED: no independent training-side OOF probabilities saved",
+  "optional_architecture": "SKIPPED: primary decision-fusion diagnostics prioritized; no new architecture was trained or claimed"
+}

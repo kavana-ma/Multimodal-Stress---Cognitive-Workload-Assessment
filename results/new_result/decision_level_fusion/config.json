@@ -1,0 +1,36 @@
+{
+  "experiment_id": "decision_fusion_enhanced_20261013_134000",
+  "seed": 42,
+  "protocol": "24-fold LOSO with existing 22/1/1 split JSONs",
+  "control": "saved equal-weight 50:50 probabilities, threshold=0.50 argmax",
+  "temperature_grid": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.25
+  ],
+  "threshold_grid": [
+    0.45,
+    0.5,
+    0.55
+  ],
+  "threshold_acceptance_rule": {
+    "minimum_validation_macro_f1_gain": 0.05,
+    "balanced_accuracy_must_not_decrease": true,
+    "fallback_threshold": 0.5
+  },
+  "calibration": "per-fold, per-modality scalar temperature fitted by validation log loss; same calibrated probabilities combined 50:50",
+  "maximum_wall_clock_seconds": 1200,
+  "workflow_started_at": "2026-10-13T13:38:59.071788+05:30",
+  "workflow_deadline": "2026-10-13T13:58:59.071788+05:30",
+  "data_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed",
+  "baseline_prediction_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions",
+  "checkpoint_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints",
+  "split_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits",
+  "weighted_v1_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion_weighted_v1",
+  "weighted_v1_script": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\22_train_validation_weighted_fusion.py",
+  "output_directory": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\decision_fusion_enhanced_20261013_134000",
+  "output_directory_checked_absent_before_creation": true,
+  "source_root_is_git_repository": false
+}

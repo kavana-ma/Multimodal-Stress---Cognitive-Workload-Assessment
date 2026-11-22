@@ -1,0 +1,26 @@
+2026-10-13T08:24:41.234400+00:00 Preflight passed for 24 subjects; using device=cpu
+2026-10-13T08:24:43.948677+00:00 Fold 01/24 completed: validation=VP002; test=VP001; threshold=0.50; calibrated_threshold=0.45
+2026-10-13T08:24:46.193327+00:00 Fold 02/24 completed: validation=VP003; test=VP002; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:24:48.404702+00:00 Fold 03/24 completed: validation=VP004; test=VP003; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:24:50.646721+00:00 Fold 04/24 completed: validation=VP005; test=VP004; threshold=0.50; calibrated_threshold=0.55
+2026-10-13T08:24:52.923312+00:00 Fold 05/24 completed: validation=VP006; test=VP005; threshold=0.55; calibrated_threshold=0.50
+2026-10-13T08:24:55.228361+00:00 Fold 06/24 completed: validation=VP007; test=VP006; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:24:57.679091+00:00 Fold 07/24 completed: validation=VP008; test=VP007; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:01.096844+00:00 Fold 08/24 completed: validation=VP009; test=VP008; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:03.336688+00:00 Fold 09/24 completed: validation=VP010; test=VP009; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:05.596527+00:00 Fold 10/24 completed: validation=VP011; test=VP010; threshold=0.50; calibrated_threshold=0.45
+2026-10-13T08:25:07.966451+00:00 Fold 11/24 completed: validation=VP014; test=VP011; threshold=0.45; calibrated_threshold=0.45
+2026-10-13T08:25:10.361951+00:00 Fold 12/24 completed: validation=VP015; test=VP014; threshold=0.55; calibrated_threshold=0.55
+2026-10-13T08:25:12.678228+00:00 Fold 13/24 completed: validation=VP016; test=VP015; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:14.980474+00:00 Fold 14/24 completed: validation=VP017; test=VP016; threshold=0.45; calibrated_threshold=0.50
+2026-10-13T08:25:17.236683+00:00 Fold 15/24 completed: validation=VP018; test=VP017; threshold=0.45; calibrated_threshold=0.50
+2026-10-13T08:25:19.622552+00:00 Fold 16/24 completed: validation=VP019; test=VP018; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:22.182514+00:00 Fold 17/24 completed: validation=VP020; test=VP019; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:24.612431+00:00 Fold 18/24 completed: validation=VP021; test=VP020; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:26.896723+00:00 Fold 19/24 completed: validation=VP022; test=VP021; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:29.326563+00:00 Fold 20/24 completed: validation=VP023; test=VP022; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:31.714633+00:00 Fold 21/24 completed: validation=VP024; test=VP023; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:34.150882+00:00 Fold 22/24 completed: validation=VP025; test=VP024; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:36.573800+00:00 Fold 23/24 completed: validation=VP026; test=VP025; threshold=0.55; calibrated_threshold=0.55
+2026-10-13T08:25:39.018625+00:00 Fold 24/24 completed: validation=VP001; test=VP026; threshold=0.50; calibrated_threshold=0.50
+2026-10-13T08:25:39.397620+00:00 Run finished with status=COMPLETE; runtime=74.6s; validation inference=27.6s; folds=24/24

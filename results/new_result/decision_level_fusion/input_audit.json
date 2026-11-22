@@ -1,0 +1,2086 @@
+{
+  "project_root": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION",
+  "expected_subjects": [
+    "VP001",
+    "VP002",
+    "VP003",
+    "VP004",
+    "VP005",
+    "VP006",
+    "VP007",
+    "VP008",
+    "VP009",
+    "VP010",
+    "VP011",
+    "VP014",
+    "VP015",
+    "VP016",
+    "VP017",
+    "VP018",
+    "VP019",
+    "VP020",
+    "VP021",
+    "VP022",
+    "VP023",
+    "VP024",
+    "VP025",
+    "VP026"
+  ],
+  "data_files": [
+    {
+      "subject": "VP001",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP001_nback_preprocessed.mat",
+      "bytes": 26829669
+    },
+    {
+      "subject": "VP002",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP002_nback_preprocessed.mat",
+      "bytes": 26847818
+    },
+    {
+      "subject": "VP003",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP003_nback_preprocessed.mat",
+      "bytes": 26805935
+    },
+    {
+      "subject": "VP004",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP004_nback_preprocessed.mat",
+      "bytes": 26936677
+    },
+    {
+      "subject": "VP005",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP005_nback_preprocessed.mat",
+      "bytes": 26861617
+    },
+    {
+      "subject": "VP006",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP006_nback_preprocessed.mat",
+      "bytes": 26856017
+    },
+    {
+      "subject": "VP007",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP007_nback_preprocessed.mat",
+      "bytes": 26817910
+    },
+    {
+      "subject": "VP008",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP008_nback_preprocessed.mat",
+      "bytes": 26835219
+    },
+    {
+      "subject": "VP009",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP009_nback_preprocessed.mat",
+      "bytes": 26854764
+    },
+    {
+      "subject": "VP010",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP010_nback_preprocessed.mat",
+      "bytes": 26871153
+    },
+    {
+      "subject": "VP011",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP011_nback_preprocessed.mat",
+      "bytes": 26824693
+    },
+    {
+      "subject": "VP014",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP014_nback_preprocessed.mat",
+      "bytes": 26864164
+    },
+    {
+      "subject": "VP015",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP015_nback_preprocessed.mat",
+      "bytes": 26907120
+    },
+    {
+      "subject": "VP016",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP016_nback_preprocessed.mat",
+      "bytes": 26847432
+    },
+    {
+      "subject": "VP017",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP017_nback_preprocessed.mat",
+      "bytes": 26821471
+    },
+    {
+      "subject": "VP018",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP018_nback_preprocessed.mat",
+      "bytes": 26865660
+    },
+    {
+      "subject": "VP019",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP019_nback_preprocessed.mat",
+      "bytes": 26858798
+    },
+    {
+      "subject": "VP020",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP020_nback_preprocessed.mat",
+      "bytes": 26853954
+    },
+    {
+      "subject": "VP021",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP021_nback_preprocessed.mat",
+      "bytes": 26863727
+    },
+    {
+      "subject": "VP022",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP022_nback_preprocessed.mat",
+      "bytes": 26780122
+    },
+    {
+      "subject": "VP023",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP023_nback_preprocessed.mat",
+      "bytes": 26819524
+    },
+    {
+      "subject": "VP024",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP024_nback_preprocessed.mat",
+      "bytes": 26819136
+    },
+    {
+      "subject": "VP025",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP025_nback_preprocessed.mat",
+      "bytes": 26852400
+    },
+    {
+      "subject": "VP026",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\data\\epochs_preprocessed\\VP026_nback_preprocessed.mat",
+      "bytes": 26901638
+    }
+  ],
+  "split_definitions": [
+    {
+      "fold": 1,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_01.json",
+      "train_subjects": [
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP002",
+      "test_subject": "VP001"
+    },
+    {
+      "fold": 2,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_02.json",
+      "train_subjects": [
+        "VP001",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP003",
+      "test_subject": "VP002"
+    },
+    {
+      "fold": 3,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_03.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP004",
+      "test_subject": "VP003"
+    },
+    {
+      "fold": 4,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_04.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP005",
+      "test_subject": "VP004"
+    },
+    {
+      "fold": 5,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_05.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP006",
+      "test_subject": "VP005"
+    },
+    {
+      "fold": 6,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_06.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP007",
+      "test_subject": "VP006"
+    },
+    {
+      "fold": 7,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_07.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP008",
+      "test_subject": "VP007"
+    },
+    {
+      "fold": 8,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_08.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP009",
+      "test_subject": "VP008"
+    },
+    {
+      "fold": 9,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_09.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP010",
+      "test_subject": "VP009"
+    },
+    {
+      "fold": 10,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_10.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP011",
+      "test_subject": "VP010"
+    },
+    {
+      "fold": 11,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_11.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP014",
+      "test_subject": "VP011"
+    },
+    {
+      "fold": 12,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_12.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP015",
+      "test_subject": "VP014"
+    },
+    {
+      "fold": 13,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_13.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP016",
+      "test_subject": "VP015"
+    },
+    {
+      "fold": 14,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_14.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP017",
+      "test_subject": "VP016"
+    },
+    {
+      "fold": 15,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_15.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP018",
+      "test_subject": "VP017"
+    },
+    {
+      "fold": 16,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_16.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP019",
+      "test_subject": "VP018"
+    },
+    {
+      "fold": 17,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_17.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP020",
+      "test_subject": "VP019"
+    },
+    {
+      "fold": 18,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_18.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP021",
+      "test_subject": "VP020"
+    },
+    {
+      "fold": 19,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_19.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP023",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP022",
+      "test_subject": "VP021"
+    },
+    {
+      "fold": 20,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_20.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP024",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP023",
+      "test_subject": "VP022"
+    },
+    {
+      "fold": 21,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_21.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP025",
+        "VP026"
+      ],
+      "validation_subject": "VP024",
+      "test_subject": "VP023"
+    },
+    {
+      "fold": 22,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_22.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP026"
+      ],
+      "validation_subject": "VP025",
+      "test_subject": "VP024"
+    },
+    {
+      "fold": 23,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_23.json",
+      "train_subjects": [
+        "VP001",
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024"
+      ],
+      "validation_subject": "VP026",
+      "test_subject": "VP025"
+    },
+    {
+      "fold": 24,
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\splits\\fold_24.json",
+      "train_subjects": [
+        "VP002",
+        "VP003",
+        "VP004",
+        "VP005",
+        "VP006",
+        "VP007",
+        "VP008",
+        "VP009",
+        "VP010",
+        "VP011",
+        "VP014",
+        "VP015",
+        "VP016",
+        "VP017",
+        "VP018",
+        "VP019",
+        "VP020",
+        "VP021",
+        "VP022",
+        "VP023",
+        "VP024",
+        "VP025"
+      ],
+      "validation_subject": "VP001",
+      "test_subject": "VP026"
+    }
+  ],
+  "checkpoint_map": [
+    {
+      "fold": 1,
+      "test_subject": "VP001",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_01_best.pt",
+        "bytes": 6978004,
+        "sha256": "a30bcd59bba051d449fd851f8a4908fdb7e89b70aaa2369f6987639f9f9613ae",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_01_best.pt",
+        "bytes": 3593261,
+        "sha256": "2bed318f5cdb259c2e791fe5faae9c322aeac8a8544e0210644f8b9f64739228",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 2,
+      "test_subject": "VP002",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_02_best.pt",
+        "bytes": 6978004,
+        "sha256": "fc14ab9e63aaa51ef237435563db1ca4f9753992a16504fc375da8e6bd524137",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_02_best.pt",
+        "bytes": 3593261,
+        "sha256": "ba1cafac53fa6b0384b41c3b92109c5185885bcc15721c9f4ea94278e15622f2",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 3,
+      "test_subject": "VP003",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_03_best.pt",
+        "bytes": 6977940,
+        "sha256": "125244f3106fe2bd866e5c7c8f721db8d7c849f5d7ea01c423537bfe04a9961e",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_03_best.pt",
+        "bytes": 3593325,
+        "sha256": "fb979d79c65f4442f43dee5e213d989aab0368cb3c6197311f859454a1f55bf7",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 4,
+      "test_subject": "VP004",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_04_best.pt",
+        "bytes": 6977940,
+        "sha256": "512f6db29f6cf60bdae267b87bb0e8b8b07f7d9082f14a72584d1da95469a9f7",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_04_best.pt",
+        "bytes": 3593325,
+        "sha256": "08568f2d2788c01a4110f194f9934297d5c04db7d529aced4a114dbdfc79d430",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 5,
+      "test_subject": "VP005",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_05_best.pt",
+        "bytes": 6977940,
+        "sha256": "082706f62a1c5d6c7c111bb94b97da7c33ba8b36428c130c46cda2fa842abcdc",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_05_best.pt",
+        "bytes": 3593261,
+        "sha256": "8f02060431c0a125c9cf5ed042966ddf7789bd069686eac115f0cc4a99d482ed",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 6,
+      "test_subject": "VP006",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_06_best.pt",
+        "bytes": 6977940,
+        "sha256": "7d101f802f1b0ae7f78ad08f9a5f9f577fc88c5d2a3d9deb48b252e4513d660e",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_06_best.pt",
+        "bytes": 3593325,
+        "sha256": "36c387979cfcfd6ac50cffa5539ab7ec50e643dbeb2fd0822a6fddda8b276543",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 7,
+      "test_subject": "VP007",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_07_best.pt",
+        "bytes": 6977940,
+        "sha256": "f4962f383cc453853397d64a4fa0438b4c73cd9182a896377343101872e9cc2d",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_07_best.pt",
+        "bytes": 3593261,
+        "sha256": "a9e2eee4e993cc8c339f8f728cc83b4ad07ef76758812263f023e0c9a2a5c3e9",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 8,
+      "test_subject": "VP008",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_08_best.pt",
+        "bytes": 6977940,
+        "sha256": "836985efb7e24d87b99ca3236cf902e61206df1f27e864b65cdd4a33982f853e",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_08_best.pt",
+        "bytes": 3593261,
+        "sha256": "3fbc486c5c1c914292dad22a97a4dd4a81edacec2e0eb901575687560c5e86c4",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 9,
+      "test_subject": "VP009",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_09_best.pt",
+        "bytes": 6977940,
+        "sha256": "97ab967ad255e0258156afa7a755fd69297d603aa7e172eac6f44f0e7798e7af",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_09_best.pt",
+        "bytes": 3593261,
+        "sha256": "3ecede6476a00ed3225e9ea4773caec29e3f0eaa126901188963c845dd6f5c15",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 10,
+      "test_subject": "VP010",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_10_best.pt",
+        "bytes": 6977940,
+        "sha256": "c2c326bbaf7295922b51e8c2eac28264b678052a75726b75eedf77aebb2926e3",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_10_best.pt",
+        "bytes": 3593261,
+        "sha256": "f9b55d6c5ee783bbe205ac4519edbf4674172ad496cbfd002b0e2934354e7216",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 11,
+      "test_subject": "VP011",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_11_best.pt",
+        "bytes": 6977940,
+        "sha256": "b7ad735203655a47c6a4285f9fe6ca9becc8bdb52f4bb19c024b97ba442de2e6",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_11_best.pt",
+        "bytes": 3593261,
+        "sha256": "70faf9b6ec5f7820e76ff7ba22c08d2f25a0e472e84fc2df61ee3adf6c5fb3c1",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 12,
+      "test_subject": "VP014",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_12_best.pt",
+        "bytes": 6978004,
+        "sha256": "d56014d33777d0161aff004ae3a395ff1c18906a2e717cb3036dcc185c85922a",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_12_best.pt",
+        "bytes": 3593325,
+        "sha256": "6a6a144d567ab14c207310aeaedf9d586275a2f80f8cad5e4e9a8cd901288b1a",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 13,
+      "test_subject": "VP015",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_13_best.pt",
+        "bytes": 6977940,
+        "sha256": "334eb54a9fdb353206e139b8cc3ebf6737303234311e902b4e0b5be915d5ec13",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_13_best.pt",
+        "bytes": 3593325,
+        "sha256": "f3fba046d8924c9c87b7607ff5086d82be1c40a00eaea30ba24d432371e87829",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 14,
+      "test_subject": "VP016",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_14_best.pt",
+        "bytes": 6977940,
+        "sha256": "d24d33c54d9bd14263a22c3749da703b211b2333b8b63e7519c245b3a5b0b549",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_14_best.pt",
+        "bytes": 3593325,
+        "sha256": "5f6a25d07140ec9238aa338060164092119dea70efa64bafc4fd4eeeab97a218",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 15,
+      "test_subject": "VP017",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_15_best.pt",
+        "bytes": 6977940,
+        "sha256": "4709e9b49c2188bb9ad81765f7cb703db1b45eb1364aea71d03411b589393cbf",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_15_best.pt",
+        "bytes": 3593261,
+        "sha256": "42f78ac1413179ceb5e836b011d2853db88966b174e8fdb942a7bd01897829c6",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 16,
+      "test_subject": "VP018",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_16_best.pt",
+        "bytes": 6977940,
+        "sha256": "fe0cb9ce13dd390936528982540f0bb470ed6a50aacbf1b31171c8355795da05",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_16_best.pt",
+        "bytes": 3593261,
+        "sha256": "acf405d140df7c84b0cc75259e56efd1d81764500ddaf62b97ddb484948f3dad",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 17,
+      "test_subject": "VP019",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_17_best.pt",
+        "bytes": 6977940,
+        "sha256": "727d9e51dfe86041fca0ca2a86618aa7382b9fdc528d273e9cb8951660212abf",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_17_best.pt",
+        "bytes": 3593261,
+        "sha256": "7db9b0860b2a4b49433d185be1769f00365a6b15cd45994ddaac6a2926327b90",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 18,
+      "test_subject": "VP020",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_18_best.pt",
+        "bytes": 6978004,
+        "sha256": "bde0af521249802e3edb99bfd54ca490509c9dd69f2cf8607e6bae180eab1180",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_18_best.pt",
+        "bytes": 3593325,
+        "sha256": "ec1ff47e970393a1183017b82aee76f436905633ed275ad924d107e778e91b52",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 19,
+      "test_subject": "VP021",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_19_best.pt",
+        "bytes": 6977940,
+        "sha256": "4d018bcb0eda1bb358f72aae4ce29e0b492c06808c9cac95e4a9293ffd22f28a",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_19_best.pt",
+        "bytes": 3593325,
+        "sha256": "42f1ea6e53f7cf6042f7f433c2097baf2b1cf565bf5525e7b13d01b1916ebdea",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 20,
+      "test_subject": "VP022",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_20_best.pt",
+        "bytes": 6977940,
+        "sha256": "0525a2170cec008a44b6a7e1980404bce0dec5e9a3d7f71904730b114d30dcd1",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_20_best.pt",
+        "bytes": 3593261,
+        "sha256": "8e22cdcbdcdf625d4ecc8cd36a81a212be210e09e15e992f8fbab57798cb356d",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 21,
+      "test_subject": "VP023",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_21_best.pt",
+        "bytes": 6977940,
+        "sha256": "853aa8b922e5b237658c14c1a7f5174c1c90cf7fd9d2cdc584ea1650009e5267",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_21_best.pt",
+        "bytes": 3593261,
+        "sha256": "23ece79b1f7187319cbb2b4358421eef8874b8aa69a6a435a96124d9c2b738c1",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 22,
+      "test_subject": "VP024",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_22_best.pt",
+        "bytes": 6977940,
+        "sha256": "aab2f2f789c28427ecc8097164370246f60a2b24427997d732f332406d149a75",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_22_best.pt",
+        "bytes": 3593261,
+        "sha256": "e5d536c7442eeb577bba4100e8e7cc52f0fc5cb83535976caed0d969821757d5",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 23,
+      "test_subject": "VP025",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_23_best.pt",
+        "bytes": 6977940,
+        "sha256": "aa7fd9534fb48ab24264571387cc7786e7053dc6f6ade0b25af9056f8e37f995",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_23_best.pt",
+        "bytes": 3593325,
+        "sha256": "3fcccc285ff7a9f8cdb639e8a81d41ac767b17e668546b12bb329f8b58f826cb",
+        "normalization_stats_present": true
+      }
+    },
+    {
+      "fold": 24,
+      "test_subject": "VP026",
+      "eeg": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_24_best.pt",
+        "bytes": 6977940,
+        "sha256": "fa341334e58fcf1e0c52491b0df9d82e4225d220e21ba6eab28132b2af2cf24a",
+        "normalization_stats_present": true
+      },
+      "fnirs": {
+        "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_24_best.pt",
+        "bytes": 3593261,
+        "sha256": "093dc082424e4d8cb6ae5a33655c3c5b2282c4078d878d966c79ba8a885feabd",
+        "normalization_stats_present": true
+      }
+    }
+  ],
+  "baseline_prediction_map": [
+    {
+      "fold": 1,
+      "test_subject": "VP001",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP001_late_fusion_predictions.csv",
+      "sha256": "720d909f96bb6e54e98f4b3e13c5def90f7b7f0bc1c25ce3aa1128f399563175",
+      "bytes": 2462,
+      "rows": 27
+    },
+    {
+      "fold": 2,
+      "test_subject": "VP002",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP002_late_fusion_predictions.csv",
+      "sha256": "d77a5f7b425ac3f4c832fe53f3ae86fdf0df99e5929f65277c943a6e2f10f24e",
+      "bytes": 2423,
+      "rows": 27
+    },
+    {
+      "fold": 3,
+      "test_subject": "VP003",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP003_late_fusion_predictions.csv",
+      "sha256": "7128d994b217082c0935f54edc803ebdea69c754fd55da15fdb7a925d1c0c05f",
+      "bytes": 2424,
+      "rows": 27
+    },
+    {
+      "fold": 4,
+      "test_subject": "VP004",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP004_late_fusion_predictions.csv",
+      "sha256": "d0683f3efc182d8c720f0b3814b2c99dc499dcfc98f8e7d74d319b0dd2f57fdd",
+      "bytes": 2395,
+      "rows": 27
+    },
+    {
+      "fold": 5,
+      "test_subject": "VP005",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP005_late_fusion_predictions.csv",
+      "sha256": "4ba5744378db0ecef825e98971e97448a273179a406562a7f02ec85a962ca4c1",
+      "bytes": 2404,
+      "rows": 27
+    },
+    {
+      "fold": 6,
+      "test_subject": "VP006",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP006_late_fusion_predictions.csv",
+      "sha256": "01cd1cb451e1457b1e4c2d42d00813b203ae0c38d231c2892ac8e324000dac8c",
+      "bytes": 2411,
+      "rows": 27
+    },
+    {
+      "fold": 7,
+      "test_subject": "VP007",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP007_late_fusion_predictions.csv",
+      "sha256": "993a5126d1cf6867a2e5ccb42c3695fb6edc593ff6eac354fdeaa2175a9fc950",
+      "bytes": 2444,
+      "rows": 27
+    },
+    {
+      "fold": 8,
+      "test_subject": "VP008",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP008_late_fusion_predictions.csv",
+      "sha256": "1d7ac01e21839a5386610bfd2a2917115038ef5be1523f9e969ab7fb9e6e9d76",
+      "bytes": 2404,
+      "rows": 27
+    },
+    {
+      "fold": 9,
+      "test_subject": "VP009",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP009_late_fusion_predictions.csv",
+      "sha256": "55d3a5d747273bf2c34634eda008b8f3e0dfa155a3afa79a2d573076c489ee8e",
+      "bytes": 2440,
+      "rows": 27
+    },
+    {
+      "fold": 10,
+      "test_subject": "VP010",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP010_late_fusion_predictions.csv",
+      "sha256": "bb387d258af2bbbdef45aa7512cb71817c7d2596908cddcfdf61a79ee8174f90",
+      "bytes": 2416,
+      "rows": 27
+    },
+    {
+      "fold": 11,
+      "test_subject": "VP011",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP011_late_fusion_predictions.csv",
+      "sha256": "4fbcdcffabedd844b5661d3a725d9fba82b0649f27b57725ba13a6c8389f8a58",
+      "bytes": 2460,
+      "rows": 27
+    },
+    {
+      "fold": 12,
+      "test_subject": "VP014",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP014_late_fusion_predictions.csv",
+      "sha256": "2f6c105ac8bf6fd2d155ca3f1313209a8c53ed5c776c9e454b8ca6b52f343d36",
+      "bytes": 2391,
+      "rows": 27
+    },
+    {
+      "fold": 13,
+      "test_subject": "VP015",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP015_late_fusion_predictions.csv",
+      "sha256": "c0229f48fefd75a11bdb805f67d127dc2fefe6b4f0a8a928d6a31eb9ce32dd50",
+      "bytes": 2403,
+      "rows": 27
+    },
+    {
+      "fold": 14,
+      "test_subject": "VP016",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP016_late_fusion_predictions.csv",
+      "sha256": "ae7efd6dcc2b58b5a3ac41eb2794843becdeeba4414690d65ec1c1448fa6571c",
+      "bytes": 2421,
+      "rows": 27
+    },
+    {
+      "fold": 15,
+      "test_subject": "VP017",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP017_late_fusion_predictions.csv",
+      "sha256": "8b64691f7333d05f70958eec5006e6d2eaf72a9b00551cb6b3b6a2987b07a503",
+      "bytes": 2424,
+      "rows": 27
+    },
+    {
+      "fold": 16,
+      "test_subject": "VP018",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP018_late_fusion_predictions.csv",
+      "sha256": "21b069b9d10f2a0a8d9e9fd1afc9a7b119b7c9fbb5435e626d7d0cf1ba1b3de7",
+      "bytes": 2425,
+      "rows": 27
+    },
+    {
+      "fold": 17,
+      "test_subject": "VP019",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP019_late_fusion_predictions.csv",
+      "sha256": "d140f8ffcd19160aff61b51b7278dd0a207d507f818ecc1fd27d59a14d3a017b",
+      "bytes": 2467,
+      "rows": 27
+    },
+    {
+      "fold": 18,
+      "test_subject": "VP020",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP020_late_fusion_predictions.csv",
+      "sha256": "dcc9a06aabf2233db792822b748397c2dd2ae0e1d680f296c6b5435692708da7",
+      "bytes": 2499,
+      "rows": 27
+    },
+    {
+      "fold": 19,
+      "test_subject": "VP021",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP021_late_fusion_predictions.csv",
+      "sha256": "98e8138d67308df9a1f2b9fee9eb90036d0fe594a2177b5f03681ca6d42bf58d",
+      "bytes": 2410,
+      "rows": 27
+    },
+    {
+      "fold": 20,
+      "test_subject": "VP022",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP022_late_fusion_predictions.csv",
+      "sha256": "6d60944e69873b9311b8a5c368bb7aa526e01c9dc8071ab0c33f2cfcff4ad976",
+      "bytes": 2431,
+      "rows": 27
+    },
+    {
+      "fold": 21,
+      "test_subject": "VP023",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP023_late_fusion_predictions.csv",
+      "sha256": "2d4dcdae3dffb6aa35f179c9e945640941af4de4c6ec48f936bf8c6200bcbb3e",
+      "bytes": 2410,
+      "rows": 27
+    },
+    {
+      "fold": 22,
+      "test_subject": "VP024",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP024_late_fusion_predictions.csv",
+      "sha256": "950618bdb038562e67230ec75af99fe9349124b0707a8669b5a0b7d432a54d97",
+      "bytes": 2474,
+      "rows": 27
+    },
+    {
+      "fold": 23,
+      "test_subject": "VP025",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP025_late_fusion_predictions.csv",
+      "sha256": "060eb6e8f3b1c18c649155db56c15f0b6d466d9365e67cc952e767ceffc4728d",
+      "bytes": 2447,
+      "rows": 27
+    },
+    {
+      "fold": 24,
+      "test_subject": "VP026",
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\predictions\\VP026_late_fusion_predictions.csv",
+      "sha256": "cbd8cb9789e0d4793d72dc98a06567b7d1426ae40d4946a1041aa89bd835d642",
+      "bytes": 2411,
+      "rows": 27
+    }
+  ],
+  "validated_subject_inputs": [
+    {
+      "fold": 1,
+      "validation_subject": "VP002",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_01_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_01_best.pt",
+      "heldout_test_subject": "VP001"
+    },
+    {
+      "fold": 2,
+      "validation_subject": "VP003",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_02_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_02_best.pt",
+      "heldout_test_subject": "VP002"
+    },
+    {
+      "fold": 3,
+      "validation_subject": "VP004",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_03_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_03_best.pt",
+      "heldout_test_subject": "VP003"
+    },
+    {
+      "fold": 4,
+      "validation_subject": "VP005",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_04_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_04_best.pt",
+      "heldout_test_subject": "VP004"
+    },
+    {
+      "fold": 5,
+      "validation_subject": "VP006",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_05_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_05_best.pt",
+      "heldout_test_subject": "VP005"
+    },
+    {
+      "fold": 6,
+      "validation_subject": "VP007",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_06_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_06_best.pt",
+      "heldout_test_subject": "VP006"
+    },
+    {
+      "fold": 7,
+      "validation_subject": "VP008",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_07_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_07_best.pt",
+      "heldout_test_subject": "VP007"
+    },
+    {
+      "fold": 8,
+      "validation_subject": "VP009",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_08_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_08_best.pt",
+      "heldout_test_subject": "VP008"
+    },
+    {
+      "fold": 9,
+      "validation_subject": "VP010",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_09_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_09_best.pt",
+      "heldout_test_subject": "VP009"
+    },
+    {
+      "fold": 10,
+      "validation_subject": "VP011",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_10_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_10_best.pt",
+      "heldout_test_subject": "VP010"
+    },
+    {
+      "fold": 11,
+      "validation_subject": "VP014",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_11_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_11_best.pt",
+      "heldout_test_subject": "VP011"
+    },
+    {
+      "fold": 12,
+      "validation_subject": "VP015",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_12_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_12_best.pt",
+      "heldout_test_subject": "VP014"
+    },
+    {
+      "fold": 13,
+      "validation_subject": "VP016",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_13_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_13_best.pt",
+      "heldout_test_subject": "VP015"
+    },
+    {
+      "fold": 14,
+      "validation_subject": "VP017",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_14_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_14_best.pt",
+      "heldout_test_subject": "VP016"
+    },
+    {
+      "fold": 15,
+      "validation_subject": "VP018",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_15_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_15_best.pt",
+      "heldout_test_subject": "VP017"
+    },
+    {
+      "fold": 16,
+      "validation_subject": "VP019",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_16_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_16_best.pt",
+      "heldout_test_subject": "VP018"
+    },
+    {
+      "fold": 17,
+      "validation_subject": "VP020",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_17_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_17_best.pt",
+      "heldout_test_subject": "VP019"
+    },
+    {
+      "fold": 18,
+      "validation_subject": "VP021",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_18_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_18_best.pt",
+      "heldout_test_subject": "VP020"
+    },
+    {
+      "fold": 19,
+      "validation_subject": "VP022",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_19_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_19_best.pt",
+      "heldout_test_subject": "VP021"
+    },
+    {
+      "fold": 20,
+      "validation_subject": "VP023",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_20_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_20_best.pt",
+      "heldout_test_subject": "VP022"
+    },
+    {
+      "fold": 21,
+      "validation_subject": "VP024",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_21_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_21_best.pt",
+      "heldout_test_subject": "VP023"
+    },
+    {
+      "fold": 22,
+      "validation_subject": "VP025",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_22_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_22_best.pt",
+      "heldout_test_subject": "VP024"
+    },
+    {
+      "fold": 23,
+      "validation_subject": "VP026",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_23_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_23_best.pt",
+      "heldout_test_subject": "VP025"
+    },
+    {
+      "fold": 24,
+      "validation_subject": "VP001",
+      "eeg_shape": [
+        27,
+        28,
+        8400
+      ],
+      "fnirs_shape": [
+        27,
+        36,
+        420,
+        2
+      ],
+      "n_samples": 27,
+      "class_counts": {
+        "LOW": 9,
+        "HIGH": 18
+      },
+      "trial_ids_aligned": true,
+      "labels_aligned": true,
+      "eeg_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\eeg_fold_24_best.pt",
+      "fnirs_checkpoint": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\loso_binary_cnn_bilstm\\checkpoints\\fnirs_fold_24_best.pt",
+      "heldout_test_subject": "VP026"
+    }
+  ],
+  "missing": [],
+  "weighted_v1_directory_exists": false,
+  "weighted_v1_script_exists": false,
+  "baseline_summary_path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\decision_level_fusion\\metrics\\late_fusion_summary.csv",
+  "baseline_summary_sha256": "09d64d7a3945cabbc773248175140c3b5db2a387c775e5a9e14d190a0553f8cb",
+  "coverage_verified": true,
+  "coverage_samples": 648,
+  "all_subjects_seen_as_validation_and_test": true,
+  "baseline_summary_verification": [
+    {
+      "metric": "accuracy",
+      "saved_summary": 0.6743827160493828,
+      "recomputed_from_predictions": 0.6743827160493828,
+      "absolute_difference": 0.0,
+      "matches_within_1e-10": true
+    },
+    {
+      "metric": "macro_f1",
+      "saved_summary": 0.6226278373700233,
+      "recomputed_from_predictions": 0.6226278373700233,
+      "absolute_difference": 0.0,
+      "matches_within_1e-10": true
+    },
+    {
+      "metric": "roc_auc",
+      "saved_summary": 0.7520576131687243,
+      "recomputed_from_predictions": 0.7520576131687243,
+      "absolute_difference": 0.0,
+      "matches_within_1e-10": true
+    }
+  ]
+}

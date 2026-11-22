@@ -1,0 +1,56 @@
+{
+  "git_commit": null,
+  "git_status": "unavailable: workspace is not a Git repository",
+  "files": [
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\config.py",
+      "exists": true,
+      "sha256": "8479f9f7467c89c2bab7cdc8577b574932a27f42c4354f722c7c2eeaa17a44d5"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\dataset.py",
+      "exists": true,
+      "sha256": "ae911bb64bad6324c213637995d14757cced1da781d60f0dd10d19246ce3d8e0"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\utils.py",
+      "exists": true,
+      "sha256": "e4d42748812ef04822319a42908d3cf126d5640596c97d56691df563830023bf"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\eeg_cnn_bilstm.py",
+      "exists": true,
+      "sha256": "e32be34f14f214fc4e69197554a7d5725ea922bd0807c6a8dcbf4188285a6f75"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\fnirs_cnn.py",
+      "exists": true,
+      "sha256": "bbd0141686192554e4e35e001b7bffdef0e52563e19a78f7f15204130b279d30"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\models\\decision_fusion.py",
+      "exists": true,
+      "sha256": "7ab270f9d35713935e5e4e70d58eb70c0bab3781ccba921c49006e1b4520fa86"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\18_train_late_fusion.py",
+      "exists": true,
+      "sha256": "716646e272cb9b77f76d86cb539b063329f1105a2d1028881098afd58c9c2ae6"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\19_evaluate_late_fusion.py",
+      "exists": true,
+      "sha256": "385f0601742d28293f835dd2f876f1254a2b35f8d72867289411ed0911c1ab2c"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\results\\new_result\\decision_fusion_enhanced_20261013_134000\\run_experiment.py",
+      "exists": true,
+      "sha256": "bfacb890465724179d3c6646a5a55a43372aec62c4ee9a8e3556589e261d5aa6"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Downloads\\FUSION\\FUSION\\scripts\\decision_level_fusion\\22_train_validation_weighted_fusion.py",
+      "exists": false,
+      "sha256": null
+    }
+  ]
+}

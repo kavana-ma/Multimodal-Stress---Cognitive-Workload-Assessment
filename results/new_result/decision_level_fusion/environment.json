@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scikit_learn": "1.9.1",
+  "torch": "2.6.0+cpu",
+  "device": "cpu",
+  "torch_cuda_available": false,
+  "global_environment_modified": false,
+  "environment_note": "Dependencies installed into a disposable venv outside the repository; venv removed after run."
+}

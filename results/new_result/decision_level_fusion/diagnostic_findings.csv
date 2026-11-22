@@ -1,0 +1,8 @@
+issue,evidence,severity,status,fix
+Class imbalance,Each subject has 9 LOW and 18 HIGH trials; majority-HIGH reference is 66.67% accuracy.,High,Confirmed,Added class-wise metrics and majority baseline; no training change made.
+Validation threshold instability,Prior broad threshold tuning lowered LOSO Macro-F1; this run used a three-value grid plus +0.05 F1 and balanced-accuracy guards.,Moderate,Confirmed,Conservative validation-only threshold rule; defaults retained unless guard passes.
+Calibration sample size,One validation subject contributes 27 trials per fold; temperature is selected from five fixed values.,Moderate,Limitation,No isotonic calibration; calibrated results remain exploratory.
+Weighted v1 provenance,Expected directory exists=False; expected training script exists=False.,Low,Confirmed missing,Marked unavailable; prior v2 weighting artifacts separately recorded.
+Checkpoint normalization and fold map,Each fold-specific checkpoint is loaded by fold ID and its stored training mean/std are applied to validation data.,High,Verified,No source checkpoint or model changes.
+Trial/label alignment,All baseline prediction rows were checked against MAT trial IDs and labels after each subject was loaded as a validation subject.,High,Verified,Mismatches would stop the run; all 648 rows aligned.
+Cross-modal error correlation,Per-fold correlation and joint error counts are saved in prediction_diagnostics.csv.,Diagnostic,Measured,No change applied.
